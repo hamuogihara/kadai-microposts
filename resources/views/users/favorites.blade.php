@@ -1,3 +1,5 @@
+{{-- お気に入り一覧部分 --}}
+
 @if (count($microposts) > 0)
     <ul class="list-unstyled">
         @foreach ($microposts as $micropost)
